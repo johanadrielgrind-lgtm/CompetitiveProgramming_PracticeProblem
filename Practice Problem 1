@@ -1,0 +1,7 @@
+num = int(input("Enter a number: "))
+x = 1
+sumofnum = 0
+while x < (num+1):
+    sumofnum = sumofnum + x
+    x = x + 1
+print("\nThe sum of 1 to ", num, " is: ", sumofnum)
