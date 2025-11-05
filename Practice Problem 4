@@ -1,0 +1,7 @@
+x = int(input("Enter a minimum: "))
+maxnum = int(input("Enter a maximum: "))
+while x < (maxnum + 1):
+    if x % 2 == 0:
+        if x % 7 == 0:
+            print(" ", x)
+    x = x + 1
