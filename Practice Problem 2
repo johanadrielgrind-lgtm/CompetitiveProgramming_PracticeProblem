@@ -1,0 +1,7 @@
+num = int(input("Enter a number: "))
+x = 1
+prod = 0
+while x < 11:
+    prod = x * num
+    print(num, " x ", x, " = ", prod)
+    x = x + 1
